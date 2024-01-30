@@ -1,15 +1,13 @@
-span{
-    background-color: lightcoral;
-{
-
-}  li {background-color: blue;}
-
-} li
-
-.listClass   {
-
+span {
+    background-color: aquamarine;
 }
 
+li {
+    background-color: red;
+}
 
-
-#listed{background-color: yellow;}
+.listClass {
+    background-color: orange;
+}
+   
+#listId
