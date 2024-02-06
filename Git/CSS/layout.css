@@ -1,0 +1,69 @@
+.box-model {        
+    background-color:pink;
+    border: solid black 5px;
+    margin: 20px 40px 50px;
+    padding: 40px;
+    /* 
+    1 value = all sides 
+    2 values = top and bottom, right and left
+    3 values = top, right and left, bottom
+    4 values = top, right, bottom, left
+    */
+      border-width 10px;
+
+    .box-content
+      width  200px
+      height: 200px;
+
+
+
+
+}
+
+ .static {
+    position: static;
+    background-color: limegreen;
+    width: 200px;
+    height: 50px;
+}
+
+.relative {
+    position: static;
+    background-color: orange;
+    width: 200px;
+    height: 50px;
+}
+
+.absolute {
+    position: static;
+    background-color: skyblue;
+    width: 200px;
+    height: 50px;
+}
+
+
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+
+/*Floats*/
+
+.float-right{
+    width: 200px;
+    height: 100px;
+    background-color:
+}
+
+width: 200px;
+    height: 100px;
+    background-color: indianred;
+
+.parent-box {   
+
+}   
+    

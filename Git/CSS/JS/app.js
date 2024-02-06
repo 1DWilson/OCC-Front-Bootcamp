@@ -11,7 +11,7 @@ const person = {
 
 person.introduce = function () {
 
-    console.logconsole.log('Hello, my name is', this.firstName, 'Nice to meet you.')
+    console.log('Hello, my name is', this.firstName, 'Nice to meet you.')
 };
 person.introduce();
 
@@ -31,17 +31,19 @@ function calculate(a,b){
 console.log(calculate(8,4));
 
 // Task 6
-const person = {
+const person2 = {
     firstName: "Lamar",
     lastName: "Jackson",
     age: 26,
     
 
-    greet: function () {
-        console.log('Hello, my name is ${person.firstName} and I am $ {person.age}.')
+    introduce: function () {
+        console.log(`Hello, my name is ${this.firstName} and I am ${this.age}.`)
     }
 }
-person.introduce();
+// person2.introduce()
+console.log(person2)
+
 
 
 
